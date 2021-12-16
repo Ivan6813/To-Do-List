@@ -1,0 +1,33 @@
+.form {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.input-form {
+    background: #ffffff;
+    border: 1px solid #ececec;
+    border-radius: 4px;
+    width: 100%;
+    padding: 8px;
+    &::placeholder {
+        font-size: 14px;
+        color: #cacaca;
+    }
+}
+
+.btn-add {
+    width: 60px;
+    background: #550dc9;
+    border-radius: 4px;
+    margin-left: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.btn-add:hover {
+    background: #7024eb;
+    transition: all 0.5 ease;
+}
