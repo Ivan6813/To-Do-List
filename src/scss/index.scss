@@ -1,5 +1,3 @@
-@import "./mixin.scss";
-
 * {
     margin: 0;
     padding: 0;
@@ -9,3 +7,46 @@
     font-weight: normal;
     font-size: 16px;
 }
+
+.container {
+    width: 100%;
+    padding: 0 25px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.total-tasks {
+    display: inline-block;
+    background: #fef6ff;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: center;
+    color: #550dc9;
+    padding: 4px;
+    margin: 8px 0 14px 0;
+}
+
+.quantity {
+    font-weight: 600;
+    color: #373737;
+    margin-bottom: 8px;
+}
+
+@import "./mixin.scss";
+
+@import "../Components/Header/Header.scss";
+
+@import "../Components/Form/Form.scss";
+
+@import "../Components/IncompleteTasks/IncompleteTasks.scss";
+
+@import "../Components/CompletedTasks/Completed.tasks.scss";

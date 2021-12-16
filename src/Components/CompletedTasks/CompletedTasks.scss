@@ -1,0 +1,12 @@
+.completed-section {
+    padding-top: 24px;
+    flex: 1 1 auto;
+    @include tablets {
+        padding-top: 9px;
+    }
+}
+
+.completed-task {
+    text-decoration-line: line-through;
+    color: #a3a3a3;
+}
