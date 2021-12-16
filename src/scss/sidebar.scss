@@ -1,0 +1,22 @@
+.sidebar {
+    width: 52px;
+    min-height: 100vh;
+    background: #550dc9;
+    padding-top: 25px;
+    @include mobile {
+        width: 32px;
+    }
+    @include mobile-sm {
+        display: none;
+    }
+}
+
+.menu {
+    background: #440ba0 url(../img/menu.png) no-repeat center;
+    background-size: 30%;
+    width: 52px;
+    height: 32px;
+    @include mobile {
+        width: 32px;
+    }
+}
